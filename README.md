@@ -1,5 +1,7 @@
 ##A client and a server written in C lang##
+
 ##The test environment is under Linux OS##
+
 Author: HE JIN
 ------------------------------------------------------------------------
 Client can send GET or HEAD request to any website server
