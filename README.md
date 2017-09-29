@@ -27,10 +27,13 @@ HEAD info.
 ------------------------------------------------------------------------
 Hint:
 if you test it in local,  from client side:
-type  ./client -h http://localhost:3509/testfile.html
-      or   ./client http://localhost:3509/testfile.html
+eg.  
+./client -h http://localhost:3509/testfile.html
+or   ./client http://localhost:3509/testfile.html
+
 then server will return some info to client.
 client will save response in the file named "response.txt"
 
 if you put server online, from client side:
+eg.
 ./client -h http://.../testfile.html
