@@ -22,10 +22,12 @@ the CMD input format is :  ./client -h https://...:port/...
                             identifier: students
                             response: page source abt www.iastate.edu/students/
 ------------------------------------------------------------------------
+
 For server part, it just stimulate the web server, parse the Request from client.
 default server port is 3509. it only has the source "testfile.html"
 when clients send the GET or HEAD request to it, it will return the content or
 HEAD info.
+
 ------------------------------------------------------------------------
 Hint:
 if you test it in local,  from client side:
